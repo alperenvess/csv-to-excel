@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Click to download the Excel file:</h1>
+        <a href="{{ url_for('uploads', filename=filename) }}" download class="download-btn">Download Excel file</a>
+        <div class="data">
+            {{ data|safe }}
+        </div>
+    </div>
+</body>
+</html>
