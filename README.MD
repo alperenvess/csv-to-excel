@@ -7,13 +7,13 @@ This is a simple web application built with Flask that allows users to convert C
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/csv-to-excel-converter.git
+    git clone https://github.com/alperenvess/financial-manager.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd csv-to-excel-converter
+    cd finance_manager
     ```
 
 3. Install the required dependencies:
@@ -25,7 +25,7 @@ This is a simple web application built with Flask that allows users to convert C
 4. Run the Flask application:
 
     ```bash
-    python app.py
+    python3 app.py
     ```
 
 5. Open your web browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
@@ -52,10 +52,6 @@ finance_manager_app/
 - Flask: Python web framework.
 - Pandas: Data manipulation library.
 - Bootstrap: Frontend framework for styling.
-
-## Screenshots
-
-![Home Page](screenshots/home_page.png)
 
 
 
